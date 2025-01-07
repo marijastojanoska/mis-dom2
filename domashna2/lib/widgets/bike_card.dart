@@ -22,12 +22,11 @@ class BikeCard extends StatelessWidget {
           borderRadius: BorderRadius.circular(12),
           child: Stack(
             children: [
-              // Background image with blur
               Positioned.fill(
                 child: BackdropFilter(
                   filter: ImageFilter.blur(sigmaX: 3.0, sigmaY: 3.0),
                   child: Container(
-                    color: Colors.black.withOpacity(0), // Transparent for effect
+                    color: Colors.black.withOpacity(0),
                   ),
                 ),
               ),

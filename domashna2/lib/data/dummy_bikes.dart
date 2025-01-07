@@ -1,7 +1,6 @@
 import '../models/bike.dart';
 
 final dummyBikes = [
-  // Mountain Bikes
   Bike(
     modelName: 'Downhill Bike',
     description: 'Great for mountain trails and rough terrain.',
@@ -72,8 +71,6 @@ final dummyBikes = [
     price: 2400,
     imageUrl: 'https://example.com/alpine-beast.png',
   ),
-
-  // Road Bikes
   Bike(
     modelName: 'Road Bike',
     description: 'Perfect for smooth roads and long rides.',
@@ -144,8 +141,6 @@ final dummyBikes = [
     price: 2100,
     imageUrl: 'https://example.com/touring-master.png',
   ),
-
-  // BMX Bikes
   Bike(
     modelName: 'BMX Beast',
     description: 'Ready for the toughest ramps and tricks.',
@@ -216,8 +211,6 @@ final dummyBikes = [
     price: 920,
     imageUrl: 'https://example.com/turbo-bmx.png',
   ),
-
-  // Electric Bikes
   Bike(
     modelName: 'Electric Bike',
     description: 'Assisted pedaling for effortless rides.',

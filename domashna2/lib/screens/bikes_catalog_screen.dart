@@ -20,7 +20,7 @@ class _BikesCatalogScreenState extends State<BikesCatalogScreen> {
       context: context,
       builder: (_) => CartWidget(),
       isScrollControlled: true,
-      backgroundColor: Colors.transparent,
+      backgroundColor: Colors.white,
     );
   }
 
