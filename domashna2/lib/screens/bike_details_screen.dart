@@ -44,7 +44,7 @@ class BikeDetailsScreen extends StatelessWidget {
               child: Image.asset(
                 bike.imageUrl,
                 height: 300,
-                fit: BoxFit.cover,
+                fit: BoxFit.contain,
                 errorBuilder: (context, error, stackTrace) {
                   return Icon(Icons.broken_image, size: 100);
                 },

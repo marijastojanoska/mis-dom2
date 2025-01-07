@@ -25,11 +25,10 @@ class BikeItemCard extends StatelessWidget {
               width: 100,
               height: 100,
               decoration: BoxDecoration(
-                borderRadius:
-                    BorderRadius.horizontal(left: Radius.circular(12)),
+                borderRadius: BorderRadius.horizontal(left: Radius.circular(12)),
                 image: DecorationImage(
                   image: AssetImage(bike.imageUrl),
-                  fit: BoxFit.cover,
+                  fit: BoxFit.contain,
                 ),
               ),
             ),

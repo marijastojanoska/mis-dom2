@@ -69,6 +69,7 @@ class CartWidget extends StatelessWidget {
                   onPressed: cartItems.isEmpty
                       ? null
                       : () {
+                          cartService.clearCart();
                           _showSuccessDialog(context);
                         },
                   style: ElevatedButton.styleFrom(

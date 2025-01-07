@@ -60,13 +60,18 @@ flutter:
   assets:
     - assets/images/background_welcome.png
     - assets/images/background_catalog.png
-    - assets/images/bmx.png
     - assets/images/accessory.png
     - assets/images/bicycle.png
-    - assets/images/bmx.png
     - assets/images/electric.png
     - assets/images/mountain.png
     - assets/images/road.png
+    - assets/images/1.png
+    - assets/images/2.png
+    - assets/images/3.png
+    - assets/images/4.png
+    - assets/images/5.png
+    - assets/images/6.png
+    - assets/images/7.png
   fonts:
     - family: SF Pro Text
       fonts:
